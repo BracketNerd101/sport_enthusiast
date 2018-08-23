@@ -2,3 +2,24 @@ body {
 
 
 }
+
+
+.hero_style {
+  background-image: url(../img/hero_runer.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: auto
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+}
+
+.hero_style_2 {
+  background-image: url(../img/bikers.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: auto
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+}
