@@ -5,21 +5,35 @@ body {
 
 
 .hero_style {
-  background-image: url(../img/hero_runer.jpg);
+  background-image: url(../img/set_runner.jpg);
   background-size: cover;
-  height: 30rem;
+  height: 34rem;
   width: auto
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 4rem;
   min-width: 100%;
 }
 
 .hero_style_2 {
   background-image: url(../img/bikers.jpg);
   background-size: cover;
-  height: 30rem;
+  height: 34rem;
   width: auto
   margin-left: auto;
   margin-right: auto;
   min-width: 100%;
+
+}
+
+.hero_one_text_style {
+
+  margin-top: 8rem;
+
+}
+
+.hero_button_style {
+
+border-radius: 0px;
+
 }
