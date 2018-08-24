@@ -37,3 +37,44 @@ body {
 border-radius: 0px;
 
 }
+
+.hero_one_text_style_right {
+
+border-radius: 0px;
+margin-top: 8rem;
+text-align: right;
+color: #ffffff;
+
+}
+
+
+/*  */
+
+
+.product_001 {
+  background-image: url(../img/baseball.jpg);
+  background-size: cover;
+  height: 20rem;
+
+}
+
+.product_001-2 {
+  background-image: url(../img/basketball.jpg);
+  background-size: cover;
+  height: 20rem;
+
+}
+
+.product_002 {
+  background-image: url(../img/rug_play.jpg);
+  background-size: cover;
+  height: 20rem;
+
+}
+
+.product_003 {
+  background-image: url(../img/jumper.jpg);
+  background-size: cover;
+  height: 20rem;
+
+}
