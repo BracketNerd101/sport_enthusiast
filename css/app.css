@@ -54,27 +54,27 @@ color: #ffffff;
 .product_001 {
   background-image: url(../img/baseball.jpg);
   background-size: cover;
-  height: 20rem;
+  height: 12rem;
 
 }
 
 .product_001-2 {
   background-image: url(../img/basketball.jpg);
   background-size: cover;
-  height: 20rem;
+  height: 12rem;
 
 }
 
 .product_002 {
   background-image: url(../img/rug_play.jpg);
   background-size: cover;
-  height: 20rem;
+  height: 12rem;
 
 }
 
 .product_003 {
   background-image: url(../img/jumper.jpg);
   background-size: cover;
-  height: 20rem;
+  height: 12rem;
 
 }
