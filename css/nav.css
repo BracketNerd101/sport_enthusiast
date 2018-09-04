@@ -16,13 +16,13 @@ color: #767676;
 
 .top-bar, .top-bar ul {
 
-background-color: #ffffff;
+background-color: transparent;
 
 }
 
 .main_nav_container {
 
-  background-color: #ffffff;
+  background-color: none;
 
 
 }

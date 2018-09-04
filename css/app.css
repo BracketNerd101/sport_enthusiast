@@ -78,3 +78,17 @@ color: #ffffff;
   height: 12rem;
 
 }
+
+.article_001 {
+  background-image: url(../img/boxers.jpg);
+  background-size: cover;
+  height: 35rem;
+
+}
+
+.article_002 {
+  background-image: url(../img/jumper.jpg);
+  background-size: cover;
+  height: 35rem;
+
+}
