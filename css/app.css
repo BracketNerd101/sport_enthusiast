@@ -87,8 +87,20 @@ color: #ffffff;
 }
 
 .article_002 {
-  background-image: url(../img/jumper.jpg);
+  background-image: url(../img/beach_dancing.jpg);
   background-size: cover;
   height: 35rem;
 
+}
+
+.footer_style_container {
+
+  background-color: #222222;
+  height: inherit;
+  color: #ffffff;
+}
+
+.footer_style_container ul li a {
+
+  color: #ffffff;
 }
