@@ -12,6 +12,28 @@
       <link rel="stylesheet" href="css/type_style.css">
    </head>
    <body>
+
+     <div class="off-canvas position-left" id="offCanvasLeftOverlap" data-off-canvas data-transition="overlap">
+
+    <!-- Close button -->
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true">&times;</span>
+    </button>
+
+    <!-- Menu -->
+    <ul class="vertical menu">
+      <li><a href="#" class="text-uppercase main_color_style">Men</a></li>
+      <li><a href="#" class="text-uppercase main_color_style">women</a></li>
+      <li><a href="#" class="text-uppercase main_color_style">Kids</a></li>
+      <li><a href="#" class="text-uppercase main_color_style">Blog</a></li>
+      <li><a href="#" class="text-uppercase main_color_style">Schedule</a></li>
+    </ul>
+
+  </div>
+
+     <div class="off-canvas-content" data-off-canvas-content>
+      <!-- Your page content lives here -->
+
       <div class="row expanded">
          <div class="columns large-12 medium-12 small-12 utility_nav">
            <div class="float-left hide-for-small-only">
@@ -33,13 +55,14 @@
          </div>
       </div>
       <!--  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-      <div class="title-bar menu_style_color" data-responsive-toggle="example-menu" data-hide-for="medium">
-  <button class="menu_style_color font-bold font-italic" type="button" data-toggle="example-menu">&nbsp;Sports E</button>
-  <!-- <div class="title-bar-title">Sports E</div> -->
-</div>
+      <div class="title-bar menu_style_color" data-responsive-toggle="offCanvasLeft1" data-hide-for="medium">
+        <!-- <button class="menu_style_color font-bold font-italic" type="button" data-toggle="example-menu">&nbsp;Sports E</button> -->
+        <button type="button" class="button menu_style_color font-bold font-italic" data-toggle="offCanvasLeft1"> &nbsp;Sports</button>
+        <!-- <div class="title-bar-title">Sports E</div> -->
+      </div>
 
       <div data-sticky-container>
-        <div class="row top-bar main_nav_container list_style_center_nav" data-sticky data-margin-top="0" id="example-menu">
+        <div class="row top-bar main_nav_container list_style_center_nav hide-for-small-only" data-sticky data-margin-top="0" id="example-menu">
             <div class="float-left columns large-4">
               <h3 class="text-uppercase font-bold font-italic">SE</h3>
             </div>
@@ -174,6 +197,7 @@
           </ul>
         </div>
       </div>
+    </div>
       <!--  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
       <!--  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
       <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0-rc.2/dist/js/foundation.min.js" integrity="sha256-G6jsRyH1fxbsvFIXSCuwYmI1aIDYBa28xscrvmYjJy0= sha384-vtoG68NvPc9azmFJr447vvY8qgdyA4FdaJ5/bqvzIM4eAdZfO0iyRRF8l2AAscYI sha512-43seCcNrHA0BQgrtyajB9sp8yOdv5c8QdYvgjP7zJ7v+dmzAcxYDQ2gupb9aztsNWBq1COIp/3NHYkQs4l/dkg==" crossorigin="anonymous"></script>
