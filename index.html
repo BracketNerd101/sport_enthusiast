@@ -13,27 +13,26 @@
    </head>
    <body>
 
-     <div class="off-canvas position-left" id="offCanvasLeftOverlap" data-off-canvas data-transition="overlap">
-
-    <!-- Close button -->
-    <button class="close-button" aria-label="Close menu" type="button" data-close>
-      <span aria-hidden="true">&times;</span>
-    </button>
-
-    <!-- Menu -->
-    <ul class="vertical menu">
-      <li><a href="#" class="text-uppercase main_color_style">Men</a></li>
-      <li><a href="#" class="text-uppercase main_color_style">women</a></li>
-      <li><a href="#" class="text-uppercase main_color_style">Kids</a></li>
-      <li><a href="#" class="text-uppercase main_color_style">Blog</a></li>
-      <li><a href="#" class="text-uppercase main_color_style">Schedule</a></li>
-    </ul>
-
-  </div>
+      <div class="multilevel-offcanvas off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+        <ul class="vertical menu">
+          <li><a href="#">Foundation</a></li>
+          <li><a href="#">Dot</a></li>
+          <li><a href="#">ZURB</a></li>
+          <li><a href="#">Com</a></li>
+          <li><a href="#">Slash</a></li>
+          <li><a href="#">Sites</a></li>
+        </ul>
+        <ul class="vertical menu align-left">
+          <li><a href=""><button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&times; Close</span>
+          </button></a>
+        </li>
+        </ul>
+      </div>
 
      <div class="off-canvas-content" data-off-canvas-content>
-      <!-- Your page content lives here -->
 
+      <!-- Your page content lives here -->
       <div class="row expanded">
          <div class="columns large-12 medium-12 small-12 utility_nav">
            <div class="float-left hide-for-small-only">
@@ -56,8 +55,10 @@
       </div>
       <!--  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
       <div class="title-bar menu_style_color" data-responsive-toggle="offCanvasLeft1" data-hide-for="medium">
-        <!-- <button class="menu_style_color font-bold font-italic" type="button" data-toggle="example-menu">&nbsp;Sports E</button> -->
-        <button type="button" class="button menu_style_color font-bold font-italic" data-toggle="offCanvasLeft1"> &nbsp;Sports</button>
+        <button class="menu_style_color offcanvas-trigger font-bold font-italic" type="button" data-open="offCanvasLeft">&nbsp;Sports E</button>
+        <!-- <button class="offcanvas-trigger" type="button" data-open="offCanvasRight">
+          <span class="offcanvas-trigger-text hide-for-small-only">Menu</span>
+        </button> -->
         <!-- <div class="title-bar-title">Sports E</div> -->
       </div>
 
@@ -112,21 +113,21 @@
           <div class="product_001">
           </div>
           <h6 class="margin-top-1">World Little League Success</h6>
-          <a class="clear button success" href="#">Success</a>
+          <a class="hollow  alert button font-bold" href="#">Learn More</a>
         </div>
         <div class="column column-block">
           <div class="product_001-2">
 
           </div>
           <h6 class="margin-top-1">Youth Basketball In Session</h6>
-          <a class="clear button success" href="#">Success</a>
+          <a class="hollow alert button font-bold" href="#">Learn More</a>
         </div>
         <div class="column column-block">
           <div class="product_002">
 
           </div>
           <h6 class="margin-top-1">Rugby Championship in Australia</h6>
-          <a class="clear button success" href="#">Success</a>
+          <a class="hollow alert button font-bold" href="#">Learn More</a>
         </div>
         <div class="column column-block">
           <div class="product_003">
@@ -134,6 +135,7 @@
           </div>
           <h6 class="margin-top-1">Olympic Trials for Track and Field
           </h6>
+          <a class="hollow alert button font-bold" href="#">Learn More</a>
 
         </div>
       </div>
@@ -197,6 +199,7 @@
           </ul>
         </div>
       </div>
+
     </div>
       <!--  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
       <!--  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
