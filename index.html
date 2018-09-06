@@ -14,7 +14,7 @@
    <body>
       <div class="row expanded">
          <div class="columns large-12 medium-12 small-12 utility_nav">
-           <div class="float-left">
+           <div class="float-left hide-for-small-only">
              <ul class="menu align-left">
               <li><a href="#" class="font-italic font-bold">Nike</a></li>
               <li><a href="#" class="font-italic font-bold">ESPN</a></li>
@@ -23,7 +23,7 @@
             </ul>
            </div>
           <!-- end of left nav ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-          <div class="float-right">
+          <div class="float-right hide-for-small-only">
             <ul class="menu align-right">
              <li><a class="font-italic font-bold" href="#">Help</a></li>
              <li><a class="font-italic font-bold" href="#">Shopping</a></li>
@@ -33,6 +33,10 @@
          </div>
       </div>
       <!--  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+      <div class="title-bar menu_style_color" data-responsive-toggle="example-menu" data-hide-for="medium">
+  <button class="menu_style_color font-bold font-italic" type="button" data-toggle="example-menu">&nbsp;Sports E</button>
+  <!-- <div class="title-bar-title">Sports E</div> -->
+</div>
 
       <div data-sticky-container>
         <div class="row top-bar main_nav_container list_style_center_nav" data-sticky data-margin-top="0" id="example-menu">
@@ -41,7 +45,7 @@
             </div>
 
             <div class="columns large-6 float-center">
-                <ul class="menu align-center">
+                <ul class="menu align-center dropdown menu" data-dropdown-menu>
                  <li><a href="#" class="text-uppercase main_color_style">Men</a></li>
                  <li><a href="#" class="text-uppercase main_color_style">women</a></li>
                  <li><a href="#" class="text-uppercase main_color_style">Kids</a></li>
@@ -49,13 +53,12 @@
                  <li><a href="#" class="text-uppercase main_color_style">Schedule</a></li>
                </ul>
             </div>
-            <div class="columns large-2 float-right margin-top-1">
+            <div class="columns large-2 float-right margin-top-1 hide-for-small-only">
               <input type="text" id="right-label" placeholder="Search Articles">
 
             </div>
           </div>
       </div>
-
       <!--  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
       <div class="row expanded">
          <div class="columns large-12 medium-12 small-12 hero_style">
@@ -86,24 +89,29 @@
           <div class="product_001">
           </div>
           <h6 class="margin-top-1">World Little League Success</h6>
+          <a class="clear button success" href="#">Success</a>
         </div>
         <div class="column column-block">
           <div class="product_001-2">
 
           </div>
           <h6 class="margin-top-1">Youth Basketball In Session</h6>
+          <a class="clear button success" href="#">Success</a>
         </div>
         <div class="column column-block">
           <div class="product_002">
 
           </div>
           <h6 class="margin-top-1">Rugby Championship in Australia</h6>
+          <a class="clear button success" href="#">Success</a>
         </div>
         <div class="column column-block">
           <div class="product_003">
 
           </div>
-          <h6 class="margin-top-1">Olympic Trials for Track and Field</h6>
+          <h6 class="margin-top-1">Olympic Trials for Track and Field
+          </h6>
+
         </div>
       </div>
       <!--  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
@@ -131,7 +139,7 @@
             <li><a class="font-bold secondary" href="#">Articles</a></li>
             <li><a class="font-bold secondary" href="#">Leagues</a></li>
             <li><a class="font-bold secondary" href="#">Upcoming Events</a></li>
-            <li><a class="font-bold secondary" href="#">Four</a></li>
+            <li><a class="font-bold secondary" href="#">About</a></li>
           </ul>
           </div>
             <hr>
@@ -139,58 +147,34 @@
         <div class="columns large-3 medium-3 small-12">
           <ul class="vertical menu">
 
-            <li><a class="font-bold secondary" href="#">Leagues</a></li>
-            <li><a class="font-bold secondary" href="#">Upcoming Events</a></li>
-            <li><a class="font-bold secondary" href="#">Four</a></li>
+            <li><a class="font-bold secondary" href="#">League</a></li>
+            <li><a class="font-bold secondary" href="#">Fees</a></li>
+            <li><a class="font-bold secondary" href="#">Locations</a></li>
           </ul>
         </div>
         <div class="columns large-3 medium-3 small-12">
           <ul class="vertical menu">
 
-            <li><a class="font-bold secondary" href="#">Leagues</a></li>
-            <li><a class="font-bold secondary" href="#">Upcoming Events</a></li>
-            <li><a class="font-bold secondary" href="#">Four</a></li>
+            <li><a class="font-bold secondary" href="#">NFL</a></li>
+            <li><a class="font-bold secondary" href="#">NHL</a></li>
+            <li><a class="font-bold secondary" href="#">MLB</a></li>
           </ul>
         </div>
         <div class="columns large-3 medium-3 small-12">
           <ul class="vertical menu">
 
-            <li><a class="font-bold secondary" href="#">Leagues</a></li>
-            <li><a class="font-bold secondary" href="#">Upcoming Events</a></li>
-            <li><a class="font-bold secondary" href="#">Four</a></li>
+            <li><a class="font-bold secondary" href="#">Affiliates</a></li>
+            <li><a class="font-bold secondary" href="#">Sponsors</a></li>
+            <li><a class="font-bold secondary" href="#">Nike</a></li>
           </ul>
         </div>
         <div class="columns large-3 medium-3 small-12">
           <ul class="vertical menu">
-
-            <li><a class="font-bold secondary" href="#">Leagues</a></li>
-            <li><a class="font-bold secondary" href="#">Upcoming Events</a></li>
-            <li><a class="font-bold secondary" href="#">Four</a></li>
+            <li><a href="#"><h1 class="text-uppercase font-bold font-italic">SE</h1></a></li>
           </ul>
         </div>
       </div>
       <!--  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-      <!-- <div class="row">
-      <div class="columns large-3 medium-3 small-12">
-      </div>
-      <!-- end of div --
-      <div class="columns large-3 medium-3 small-12">
-      </div>
-      <!-- end of div --
-      <div class="columns large-3 medium-3 small-12">
-      </div>
-      <!-- end of div --
-      <div class="columns large-3 medium-3 small-12">
-          <div class="row footer">
-             <div class="row columns large-6">
-                <div class="columns large-4"></div>
-                <div class="columns large-4"></div>
-                <div class="columns large-4"></div>
-             </div>
-             <!-- end of div --
-          </div>
-        </div>
-      </div> -->
       <!--  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
       <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0-rc.2/dist/js/foundation.min.js" integrity="sha256-G6jsRyH1fxbsvFIXSCuwYmI1aIDYBa28xscrvmYjJy0= sha384-vtoG68NvPc9azmFJr447vvY8qgdyA4FdaJ5/bqvzIM4eAdZfO0iyRRF8l2AAscYI sha512-43seCcNrHA0BQgrtyajB9sp8yOdv5c8QdYvgjP7zJ7v+dmzAcxYDQ2gupb9aztsNWBq1COIp/3NHYkQs4l/dkg==" crossorigin="anonymous"></script>
       <script src="js/vendor/jquery.js"></script>

@@ -37,3 +37,25 @@ background-color: #ffffff;
 
   border-bottom: 1px solid #d2d2d2 !important ;
 }
+
+.menu_style_color {
+
+  color: #333333 !important;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+
+.menu_style_color:hover {
+
+  color: #767676 !important;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+.title-bar {
+
+  background-color: #ffffff;
+  color: #333333;
+
+}
