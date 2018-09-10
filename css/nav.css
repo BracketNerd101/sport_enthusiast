@@ -1,4 +1,9 @@
 
+.utility_border_style {
+
+ border-right: 1px solid #f2f2f2;
+
+}
 .small_fixed_style {
 
   top: 0;

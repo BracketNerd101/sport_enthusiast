@@ -3,6 +3,10 @@ body {
 
 }
 
+.hero_sub_section {
+  text-align: center;
+}
+
 
 .hero_style {
   background-image: url(../img/set_runner.jpg);
